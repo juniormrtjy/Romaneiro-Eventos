@@ -44,13 +44,45 @@ https://www.sliderrevolution.com/resources/css-image-effects/
   --text-6x1: 6.2rem;
 }
 
+/* MAIN-HEADER */
 .main-header {
   background-color: var(--dark-grey);
   color: var(--light-grey);
-  text-align: center;
-  padding: 2rem;
-  font-size: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4.8rem;
+
+  /* position: sticky; */
+  z-index: 99;
+  top: 0;
 }
+
+.logo {
+  font-size: var(--text-3x1);
+  color: var(--light-grey);
+  font-weight: 700;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+
+  display: none;
+}
+
+.menu a {
+  font-size: var(--text-lg);
+  color: var(--light-grey);
+  font-weight: 500;
+}
+
+.menu .btn {
+  padding: 1.2rem 3.2rem;
+}
+
+/* NAV */
 
 /* HERO SECTION */
 .section-hero {
@@ -136,6 +168,7 @@ h1 {
 
   grid-template-columns: 1fr 5fr;
   align-items: flex-start;
+  gap: 2rem;
 }
 
 .service-box i {
