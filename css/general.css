@@ -67,6 +67,10 @@ img {
   width: 100%;
 }
 
+ul {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -105,4 +109,8 @@ a {
   margin-bottom: 1.6rem;
   font-size: var(--text-sm);
   color: var(--alt);
+}
+
+.section-heading {
+  font-size: var(--text-4x1);
 }
