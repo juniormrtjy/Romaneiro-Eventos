@@ -43,6 +43,10 @@
     width: 60%;
     margin: auto;
   }
+
+  .section-banner {
+    padding-inline: 3.5rem;
+  }
 }
 /* SMALLER TABLETS */
 @media (max-width: 700px) {
@@ -51,7 +55,7 @@
   }
 
   .section-banner {
-    padding-inline: 2rem;
+    padding-inline: 3.5rem;
   }
 
   .section-banner .container {
@@ -85,6 +89,8 @@
 
   .event-img {
     object-fit: contain;
+    width: 30.7rem;
+    margin: auto;
   }
 
   .banner-text h2 {
@@ -118,5 +124,9 @@
 
   .footer-menu {
     flex-direction: column;
+  }
+
+  .banner--btn {
+    width: 100%;
   }
 }

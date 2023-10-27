@@ -37,7 +37,11 @@
 
 html {
   font-size: 62.5%;
-} /*10px*/
+
+  scroll-behavior: smooth;
+  -moz-scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth;
+}
 
 body {
   background: white;

@@ -1,14 +1,3 @@
-/* 
-https://demo.ayroui.com/templates/business-template/#close
-
-https://demo.ayroui.com/templates/startup-template/
-
-https://nicepage.com/website-templates/preview/customer-success-consultants-2416429?device=desktop
-
-https://www.sliderrevolution.com/resources/css-image-effects/
-
-*/
-
 :root {
   /* color */
   --main: #5b21b6;
@@ -216,8 +205,6 @@ h1 {
 
   filter: grayscale(1);
   transition: filter 0.8s;
-
-  border-radius: 4rem;
 }
 
 .event-box:hover .event-img {
@@ -315,6 +302,8 @@ footer .container {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+
+  gap: 1rem;
 }
 
 .contact-logo {
