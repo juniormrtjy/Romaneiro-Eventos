@@ -5,6 +5,12 @@
   }
 }
 /* LANDSCAPES TABLETS */
+@media (max-width: 1212px) {
+  .main-header {
+    padding: 1rem 2.5rem;
+  }
+}
+
 @media (max-width: 1200px) {
   .section-heading {
     font-size: 3.6rem;

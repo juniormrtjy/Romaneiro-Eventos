@@ -13,7 +13,7 @@ document.addEventListener('scroll', () => {
 })
 
 setInterval(() => {
-  if (window.innerWidth < 1130) {
+  if (window.innerWidth < 1182) {
     // menu.style.display = 'none'
     openMenu.style.display = 'block'
   } else {
