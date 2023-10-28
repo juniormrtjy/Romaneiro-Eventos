@@ -41,6 +41,11 @@
   .nav.show .menu {
     left: 0;
   }
+  .hero-links-box {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
 }
 
 /* TABLETS */
@@ -58,14 +63,13 @@
     text-align: center;
   }
 
+  .hero-links-box {
+    justify-content: center;
+  }
+
   h1 {
     font-size: 3.6rem;
     text-align: center;
-  }
-
-  .hero-links-box {
-    display: flex;
-    justify-content: center;
   }
 
   .btn {
