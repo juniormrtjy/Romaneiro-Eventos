@@ -114,6 +114,20 @@
     grid-template-columns: 1fr;
   }
 
+  .hero-links-box {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .btn {
+    width: 30rem;
+    justify-content: center;
+  }
+
+  .hero .btn:first-child {
+    margin-right: 0;
+  }
+
   .event-img {
     object-fit: contain;
     width: 30.7rem;
@@ -129,19 +143,6 @@
 @media (max-width: 380px) {
   .logo {
     font-size: 2.4rem;
-  }
-  .hero-links-box {
-    flex-wrap: wrap;
-    gap: 2rem;
-  }
-
-  .hero .btn:first-child {
-    margin-right: 0;
-  }
-
-  .btn {
-    width: 30rem;
-    justify-content: center;
   }
 
   .service-box {
