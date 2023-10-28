@@ -139,7 +139,6 @@
   }
 
   .event-img {
-    object-fit: contain;
     width: 30.7rem;
     margin: auto;
   }
