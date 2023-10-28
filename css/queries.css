@@ -127,6 +127,9 @@
 
 /* SMALLER PHONES */
 @media (max-width: 380px) {
+  .logo {
+    font-size: 2.4rem;
+  }
   .hero-links-box {
     flex-wrap: wrap;
     gap: 2rem;
