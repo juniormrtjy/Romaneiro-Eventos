@@ -41,3 +41,39 @@ menuClose.forEach(link => {
 const menuOpen = document.querySelector('.menu-show')
 
 menuOpen.addEventListener('click', menuShow)
+
+// SCROLL REVEAL
+
+ScrollReveal().reveal(
+  `
+  .hero-text-box,
+  .hero-img-box,
+  .service-img,
+  .service-wrapper,
+  .event-wrapper,
+  .event-more,
+  .testimonial,
+  .section-banner .container
+`,
+  {
+    origin: 'top',
+    delay: 200,
+    distance: '50px',
+    duration: 1200,
+    interval: 300
+  }
+)
+
+ScrollReveal().reveal(
+  `
+  .service-box,
+  .event-box
+`,
+  {
+    origin: 'top',
+    delay: 400,
+    distance: '50px',
+    duration: 1000,
+    interval: 500
+  }
+)

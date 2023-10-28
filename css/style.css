@@ -2,6 +2,7 @@
   /* color */
   --main: #5b21b6;
   --alt: #a78bfa;
+  --hover-color: #6d28d9;
 
   /* ALTS */
   --accent: #115e59;
@@ -51,6 +52,7 @@
   font-size: var(--text-3x1);
   color: var(--light-grey);
   font-weight: 700;
+  transition: color 0.3s;
 }
 
 /* NAV */
@@ -77,6 +79,13 @@
   font-size: var(--text-lg);
   color: var(--light-grey);
   font-weight: 500;
+
+  transition: color 0.3s;
+}
+
+.menu a:hover,
+.logo:hover {
+  color: var(--alt);
 }
 
 .menu .btn {
@@ -125,6 +134,8 @@ h1 {
   font-weight: 500;
   text-decoration: none;
   font-size: var(--text-lg);
+
+  transition: background 0.3s;
 }
 
 .hero .btn:first-child {
@@ -133,8 +144,17 @@ h1 {
   color: var(--light-grey);
 }
 
+.hero .btn:first-child:hover {
+  background: var(--main-grey);
+}
+
 .btn--action {
   background-color: var(--main);
+  color: var(--light-grey);
+}
+
+.btn.hover:hover {
+  background-color: var(--hover-color);
   color: var(--light-grey);
 }
 
@@ -175,6 +195,20 @@ h1 {
   grid-template-columns: 1fr 5fr;
   align-items: flex-start;
   gap: 2rem;
+}
+
+.service-box:hover {
+  background: var(--alt);
+  color: #fff;
+}
+
+.service-box:hover .service-text {
+  color: #fff;
+}
+
+.service-box:hover i {
+  background: #fff;
+  color: var(--alt);
 }
 
 .service-box i {
@@ -362,6 +396,10 @@ footer .container {
   display: inline-flex;
   margin-bottom: 1rem;
   color: var(--grey-700);
+}
+
+.footer-menu a:hover {
+  color: var(--main-grey);
 }
 
 .author {
