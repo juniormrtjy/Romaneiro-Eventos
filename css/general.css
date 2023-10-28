@@ -79,6 +79,11 @@ a {
   text-decoration: none;
 }
 
+button {
+  border: none;
+  background: none;
+}
+
 /* --------- REUSABLE --------- */
 .container {
   max-width: 120rem;
