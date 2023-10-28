@@ -22,30 +22,35 @@
     <header class="main-header">
       <a href="#" class="logo">Romaneiro Eventos</a>
 
-      <nav class="nav show">
-        <button class="close-menu toggle">
+      <nav class="nav">
+        <button class="close-menu menu-hidden">
           <i class="ph-bold ph-x"></i>
         </button>
         <ul class="menu">
           <li>
-            <a href="#" class="toggle">Serviços</a>
+            <a href="#" class="menu-hidden">Início</a>
+          </li>
+          <li>
+            <a href="#services" class="menu-hidden">Serviços</a>
           </li>
 
           <li>
-            <a href="#" class="toggle">Nosso trabalho</a>
+            <a href="#events" class="menu-hidden">Nosso trabalho</a>
           </li>
 
           <li>
-            <a href="#" class="toggle">Depoimentos</a>
+            <a href="#testimonials" class="menu-hidden">Depoimentos</a>
           </li>
 
           <li>
-            <a href="#" class="btn btn--action toggle">Entrar em contato</a>
+            <a href="#banner" class="btn btn--action menu-hidden"
+              >Entrar em contato</a
+            >
           </li>
         </ul>
       </nav>
 
-      <button class="open-menu toggle">
+      <button class="open-menu menu-show">
         <i class="ph-bold ph-list"></i>
       </button>
     </header>
@@ -105,7 +110,7 @@
       </section>
 
       <!-- SECTION SERVICES -->
-      <section class="section-services section">
+      <section class="section-services section" id="services">
         <div class="container grid grid--2-cols">
           <!--  -->
 
@@ -159,7 +164,7 @@
       </section>
 
       <!-- SECTION EVENTS -->
-      <section class="section-events section">
+      <section class="section-events section" id="events">
         <div class="container">
           <h2 class="subheading">Eventos</h2>
           <h3 class="section-heading">Nosso trabalho</h3>
@@ -197,7 +202,7 @@
       </section>
 
       <!-- SECTION TESTIMONIAL -->
-      <section class="section-testimonial section">
+      <section class="section-testimonial section" id="testimonials">
         <div class="container">
           <h2 class="subheading">Depoimentos</h2>
           <h3 class="section-heading">O que dizem sobre nós?</h3>
@@ -280,7 +285,7 @@
       </section>
 
       <!-- SECTION BANNER -->
-      <section class="section-banner section">
+      <section class="section-banner section" id="banner">
         <div class="container">
           <div class="banner-wrapper">
             <div class="banner-text">

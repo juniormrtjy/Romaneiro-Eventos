@@ -1,5 +1,6 @@
 const mainHeader = document.querySelector('.main-header')
 const nav = document.querySelector('.nav')
+const menu = document.querySelector('.menu')
 const openMenu = document.querySelector('.open-menu')
 const closeMenu = document.querySelector('.close-menu')
 
@@ -13,23 +14,30 @@ document.addEventListener('scroll', () => {
 
 setInterval(() => {
   if (window.innerWidth < 1130) {
-    nav.style.display = 'none'
+    // menu.style.display = 'none'
     openMenu.style.display = 'block'
-    closeMenu.style.display = 'block'
   } else {
-    nav.style.display = 'flex'
+    menu.style.display = 'flex'
 
-    openMenu.style.display = 'none'
     closeMenu.style.display = 'none'
+    openMenu.style.display = 'none'
   }
 }, 50)
 
-function toggleMenu() {
-  nav.classList.toggle('show')
+function menuHidden() {
+  nav.classList.remove('show')
 }
 
-const menuBtn = document.querySelectorAll('.toggle')
+function menuShow() {
+  nav.classList.add('show')
+}
 
-menuBtn.forEach(link => {
-  link.addEventListener('click', toggleMenu)
+const menuClose = document.querySelectorAll('.menu-hidden')
+
+menuClose.forEach(link => {
+  link.addEventListener('click', menuHidden)
 })
+
+const menuOpen = document.querySelector('.menu-show')
+
+menuOpen.addEventListener('click', menuShow)

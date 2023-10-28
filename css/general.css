@@ -43,6 +43,10 @@ html {
   -webkit-scroll-behavior: smooth;
 }
 
+:target {
+  scroll-margin-top: 5rem;
+}
+
 body {
   background: white;
   font-family: 'Montserrat', sans-serif;
