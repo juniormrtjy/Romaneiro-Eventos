@@ -410,3 +410,9 @@ footer .container {
 .author p {
   font-size: var(--text-sm);
 }
+
+.paulo {
+  color: var(--main-grey) !important;
+  font-weight: 500;
+  text-decoration: underline;
+}
